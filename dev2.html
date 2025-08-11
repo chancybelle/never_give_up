@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULAIRE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="dev2.css">
+   
+</head>
+<body>
+     
+    
+    <form action="#" method="post"onsubmit="return verify(event)" >
+         <h1>Sign Up</h1>
+        
+         <!-- ajout des champs de saisie -->
+         <br><br>
+               <div class="form-group">
+                 <div class="form">
+                
+                  
+                    <input type="text"  placeholder=" " id="nom" name="nom" >
+                      <label  for="nom">Full Name</label>
+                     
+               </div>
+              
+               <input type="email" placeholder="Email" id="email" name="email" autocomplete="email" >
+              
+              
+               
+              <div class="password-container">
+                <input type="password" id="password" placeholder="Entrez votre mot de passe" name="password"  autocomplete="new-password">
+            
+               <i class="fa fa-eye" id="eye-icon-password" onclick="togglePasswordVisibility('password', 'eye-icon-password')"></i>
+               
+              </div> 
+              <div class="password-contain">
+                  
+                 
+               <input type="password" id="re-enterpassword" placeholder="Entrez a nouveau votre mot de passe" name="password" >
+               <i class="fa fa-eye" id="eye-icon-re-enter" onclick="togglePasswordVisibility('re-enterpassword', 'eye-icon-re-enter')"></i>
+               </div>
+           </div>
+           
+                  <a href="#" class="sign">Sign Up</a>
+                 
+
+                    <h3>Or</h3>
+                     <a href="#" class="sign_up">Sign Up With google </a>
+                     <p>Already   have   an   account? <a href="#" class="sign_in">Sign In</a></p> <br>
+                     
+                     <button type="submit">ENVOYER</button>
+           
+           </fieldset>
+
+            
+
+    </form>
+    <script src="newFile.js">
+      
+</script>
+</body>
+</html>

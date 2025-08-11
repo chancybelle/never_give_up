@@ -1,0 +1,230 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:linear-gradient(to right, #FFC5C5 50%, #C7B8EA 50%)
+    
+}
+h1{
+    text-align: center;
+}
+input{
+    width: 96%;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(160, 28, 165);
+    border-radius: 8px;
+}
+input[type="password"]{
+  width: 97%;
+}
+button[type="submit"]{
+    background-color:#C7B8EA ;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 120px;
+}
+form{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    width: 900px;
+     height: 800px;
+     margin: auto;
+     background-color: #fff;
+    
+}
+.password-container{
+    display: flex;
+    align-items: center;
+}
+.password-contain{
+    display: flex;
+    align-items: center;
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:linear-gradient(to right, #FFC5C5 50%, #C7B8EA 50%);
+    background-attachment: fixed;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+   margin: 0 auto;
+   margin-top: 30px;
+   position: relative;
+   top: 37px;
+   
+}
+input{
+    width: 83%;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #4B0082;
+    border-radius: 8px;
+    margin-left: 20px;
+    flex-direction: column;
+}
+input[type="password"]{
+  width: 85%;
+  margin-left: 15px;
+}
+.sign{
+    color: #fff;
+    text-decoration: none;
+    background-image:linear-gradient(to right, #C7B8EA 0%, #6c5ce7 50%, #03055B 100%) ;
+   padding: 10px 20px;
+   border-radius: 5px;
+    display: inline-block;
+   width: 330px;
+   height: 40px;
+   position: relative;
+   top: 60px;
+  align-items: center;
+  margin-right: 65px;
+  margin-left: 41px;
+  line-height:40px ;
+}
+
+h3{
+    position: relative;
+    top: 70px;
+    text-align: center;
+    margin-top: 20px;
+}
+.sign_up{
+    color: #000;
+    text-decoration: none;
+    background-color: #ccc;
+  
+   border-radius: 5px;
+    display: inline-block;
+   width: 360px;
+   height: 50px;
+   position: relative;
+   top: 95px;
+  align-items: center;
+  margin-right: 65px;
+  margin-left: 48px;
+  line-height:50px ;
+  text-align: center;
+}
+
+form{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    width: 450px;
+     height: 900px;
+     margin: auto;
+     background-color: #fff;
+     border-radius: 8px;
+}
+input[name="nom"]::placeholder {
+    color: #222222;
+   
+    font-weight: normal;
+  
+}
+input[name="nom"]{
+ padding-left: 9px;
+ font-size: 16px;
+ 
+}
+input[type="text"]{
+  margin-left: 20px;
+   margin-top: 50px;
+}
+input[type="email"]{
+    background-color: #fff;
+    font-size: 16px;
+    padding-left: 9px;
+}
+input[type="password"]{
+    background-color: #fff;
+    font-size: 16px;
+    padding-left: 9px;
+}
+.password-container{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.password-container input{
+  width: 87%;
+  height: 40px;
+  padding: 10px;
+}
+.password-container i{
+    position: absolute;
+    right: 36px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.password-contain{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.password-contain input{
+  width: 87%;
+  height: 40px;
+  padding: 10px;
+}
+.password-contain i{
+    position: absolute;
+    right: 36px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+p{
+    position: relative;
+    top :133px;
+  
+   word-spacing: 5px;
+   text-align: center;
+}
+.sign_in{
+    text-decoration: none;
+    color: rgba(199, 112, 31, 0.6);
+    font-weight: bold;
+}
+.form{
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.form input{
+   
+ 
+    font-size: 16px;
+     border: 2px solid #4B0082;
+     outline: none;
+     background: white;
+}
+.form label{
+    position: absolute;
+    top: 60x;
+    transform: translateY(-50%);
+    left: 12px;
+    padding: 0 4px;
+    font-size: 16px;
+    color: #999;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 49px;
+    transition: all 0.2s ease;
+    pointer-events: none;
+   
+}
+.form input:focus + label, .form input:not(:placeholder-shown) + label {
+    top: 4px;
+   
+    font-size: 12px;
+    color: #7b21b8;
+}
